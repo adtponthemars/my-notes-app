@@ -12,7 +12,7 @@ const App = () => {
       {/* <div className=''> */}
       <Navbar/>
      {/* </div> */}
-     <div className=' bg-blue-400 w-full'>
+     <div className='px-6 py-4 w-full'>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/create" element={<CreatePage />} />
