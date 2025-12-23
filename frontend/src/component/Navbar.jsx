@@ -9,7 +9,7 @@ const Navbar = () => {
         {name: "Setting", icon:<Settings size={22} />}
     ]
   return (
-    <div className='w-1/6  bg-[#C47BE4] text-white sticky p-4 h-screen shadow-[#3e0755a3] shadow-xl'>
+    <div className='w-1/6 top-0 bg-[#C47BE4] text-white sticky p-4 h-screen shadow-[#3e0755a3] shadow-xl'>
        <div className='font-bold text-2xl mb-5 border-[#a25ebe] pb-2 border-b-2'>NoteBook</div>
        {navItems.map((item, index)=>(
         <Link key={index}>
